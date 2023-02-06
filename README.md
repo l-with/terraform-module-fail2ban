@@ -7,13 +7,16 @@ This is a terraform replacement for [Ansible Role fail2ban](https://github.com/l
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15 |
+| <a name="requirement_system"></a> [system](#requirement\_system) | >= 0.3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_system"></a> [system](#provider\_system) | n/a |
+| <a name="provider_system"></a> [system](#provider\_system) | >= 0.3.0 |
 
 ## Modules
 
@@ -23,9 +26,9 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [system_file.etc_fail2ban_jail_confs](https://registry.terraform.io/providers/hashicorp/system/latest/docs/resources/file) | resource |
-| [system_packages_apt.fail2ban](https://registry.terraform.io/providers/hashicorp/system/latest/docs/resources/packages_apt) | resource |
-| [system_service_systemd.fail2ban](https://registry.terraform.io/providers/hashicorp/system/latest/docs/resources/service_systemd) | resource |
+| [system_file.etc_fail2ban_jail_confs](https://registry.terraform.io/providers/neuspaces/system/latest/docs/resources/file) | resource |
+| [system_packages_apt.fail2ban](https://registry.terraform.io/providers/neuspaces/system/latest/docs/resources/packages_apt) | resource |
+| [system_service_systemd.fail2ban](https://registry.terraform.io/providers/neuspaces/system/latest/docs/resources/service_systemd) | resource |
 
 ## Inputs
 
